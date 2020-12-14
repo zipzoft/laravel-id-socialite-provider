@@ -1,10 +1,11 @@
 {
     "name" : "zipzoft/laravel-id-socialite-provider",
     "type": "library",
+    "license": "MIT",
     "description": "Zipzoft ID Provider",
     "keywords": [],
     "require": {
-        "php": "^7.4",
+        "php": "^7.4 || ^8.0",
         "socialiteproviders/manager": "^3.5"
     },
     "autoload": {
@@ -18,13 +19,6 @@
             "role": "DevOps"
         }
     ],
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Zipzoft\\ID\\ZipzoftIDServiceProvider"
-            ]
-        }
-    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
